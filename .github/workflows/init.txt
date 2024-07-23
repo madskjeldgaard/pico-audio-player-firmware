@@ -1,0 +1,38 @@
+# FIXME: This currently does not work
+name: Init project from template
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on: create
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # After the temmplate has been created, the job will run the following steps
+
+
+    steps:
+      - name: Checkout code
+        # This step checks out the code in the repository
+        # so that it can be used in the following steps
+        # The code is checked out in the /github/workspace directory
+        # which is the default working directory for GitHub Actions
+        uses: actions/checkout@v4
+
+
+        # Search and replace the original URL with the new github URL in the Readme.md file
+        # The original url is https://github.com/madskjeldgaard/platformio-arduino-template
+        # Find and replace it with the new URL of your repository
+      - name: Search and replace URL
+        run: |
+          sed -i 's|https://github.com/madskjeldgaard/platformio-arduino-template|${{ github.event.repository.html_url }}|g' README.md
+
+      - uses: EndBug/add-and-commit@v9
+        with:
+          author_name: Template Robot
+          author_email: robot@example.com
+          message: 'post-init: Fix setup new project'
