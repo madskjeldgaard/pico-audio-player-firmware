@@ -35,94 +35,29 @@
       "command": "pio run -e raspberrypi-pico",
     },
 
-    // Upload raspberrypi-picow
+    // Upload nodemcuv2
     {
-      "label": "upload raspberrypi-picow",
+      "label": "upload nodemcuv2",
       "type": "shell",
-      "command": "pio run -t upload -e raspberrypi-picow",
+      "command": "pio run -t upload -e nodemcuv2",
     },
-    // Build raspberrypi-picow
+    // Build nodemcuv2
     {
-      "label": "build raspberrypi-picow",
+      "label": "build nodemcuv2",
       "type": "shell",
-      "command": "pio run -e raspberrypi-picow",
-    },
-
-    // Upload esp32dev
-    {
-      "label": "upload esp32dev",
-      "type": "shell",
-      "command": "pio run -t upload -e esp32dev",
-    },
-    // Build esp32dev
-    {
-      "label": "build esp32dev",
-      "type": "shell",
-      "command": "pio run -e esp32dev",
+      "command": "pio run -e nodemcuv2",
     },
 
-    // Upload nodemcuv2-esp8266
+    // Upload rpipicow
     {
-      "label": "upload nodemcuv2-esp8266",
+      "label": "upload rpipicow",
       "type": "shell",
-      "command": "pio run -t upload -e nodemcuv2-esp8266",
+      "command": "pio run -t upload -e rpipicow",
     },
-    // Build nodemcuv2-esp8266
+    // Build rpipicow
     {
-      "label": "build nodemcuv2-esp8266",
+      "label": "build rpipicow",
       "type": "shell",
-      "command": "pio run -e nodemcuv2-esp8266",
-    },
-
-    // Upload teensy41
-    {
-      "label": "upload teensy41",
-      "type": "shell",
-      "command": "pio run -t upload -e teensy41",
-    },
-    // Build teensy41
-    {
-      "label": "build teensy41",
-      "type": "shell",
-      "command": "pio run -e teensy41",
-    },
-
-    // Upload teensy40
-    {
-      "label": "upload teensy40",
-      "type": "shell",
-      "command": "pio run -t upload -e teensy40",
-    },
-    // Build teensy40
-    {
-      "label": "build teensy40",
-      "type": "shell",
-      "command": "pio run -e teensy40",
-    },
-
-    // Upload teensylc
-    {
-      "label": "upload teensylc",
-      "type": "shell",
-      "command": "pio run -t upload -e teensylc",
-    },
-    // Build teensylc
-    {
-      "label": "build teensylc",
-      "type": "shell",
-      "command": "pio run -e teensylc",
-    },
-
-    // Upload adafruit_feather_esp32s2
-    {
-      "label": "upload adafruit_feather_esp32s2",
-      "type": "shell",
-      "command": "pio run -t upload -e adafruit_feather_esp32s2",
-    },
-    // Build adafruit_feather_esp32s2
-    {
-      "label": "build adafruit_feather_esp32s2",
-      "type": "shell",
-      "command": "pio run -e adafruit_feather_esp32s2",
+      "command": "pio run -e rpipicow",
     },
 ] }
