@@ -4,7 +4,9 @@
 
 ![image of breadboard](assets/breadboard.jpg) 
 
-This is a simple audio file player based on the Raspberry Pi Pico boards. 
+This is a simple audio file player based on the Raspberry Pi Pico boards that plays high quality audio files from an SD card. 
+
+[There's a video here, showcasing the project](https://www.youtube.com/shorts/I8tGyGWEGCI).
 
 ## Features
 
@@ -61,7 +63,7 @@ Please make sure your sd card reader module's power requirements. Some only take
 | MOSI        | GPIO19                                                                          |
 | CS          | GPIO17                                                                          |
 | SCK         | GPIO18                                                                          |
-| VCC         | VBUS (unless your SD card module is a 3V one, then connect it to 3V3(OUT)) |
+| VCC         | VSYS (unless your SD card module is a 3V one, then connect it to 3V3(OUT)) |
 
 ### Notes about the SD card
 
