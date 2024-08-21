@@ -20,7 +20,7 @@
       "type": "shell",
       "command": "pio run -t compiledb",
     },
-  
+
 
     // Upload raspberrypi-pico
     {
@@ -33,44 +33,5 @@
       "label": "build raspberrypi-pico",
       "type": "shell",
       "command": "pio run -e raspberrypi-pico",
-    },
-
-    // Upload nodemcuv2
-    {
-      "label": "upload nodemcuv2",
-      "type": "shell",
-      "command": "pio run -t upload -e nodemcuv2",
-    },
-    // Build nodemcuv2
-    {
-      "label": "build nodemcuv2",
-      "type": "shell",
-      "command": "pio run -e nodemcuv2",
-    },
-
-    // Upload rpipicow
-    {
-      "label": "upload rpipicow",
-      "type": "shell",
-      "command": "pio run -t upload -e rpipicow",
-    },
-    // Build rpipicow
-    {
-      "label": "build rpipicow",
-      "type": "shell",
-      "command": "pio run -e rpipicow",
-    },
-
-    // Upload teensy41
-    {
-      "label": "upload teensy41",
-      "type": "shell",
-      "command": "pio run -t upload -e teensy41",
-    },
-    // Build teensy41
-    {
-      "label": "build teensy41",
-      "type": "shell",
-      "command": "pio run -e teensy41",
     },
 ] }

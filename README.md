@@ -8,10 +8,10 @@ This is a simple audio file player based on the Raspberry Pi Pico boards.
 
 ## Features
 
-- Plays uncompressed audio files (44.1khz 16 bit WAV files, but more coming)
-- Transfer using an SD card
+- Plays uncompressed audio files (44.1khz 16 bit WAV files, but more coming) from an SD card
 - Can be used with cheap high quality DAC
 - Based on [Arduino Audio Tools](https://github.com/pschatzmann/arduino-audio-tools) and Platformio, so you can easily fork this project and use it for another audio project. 
+- The onboard BOOTSEL button works as a NEXT-button to go to the next audio file in the player.
 
 *Note:* To make this run smoothly, the Pico 1 is overclocked to 270mhz. Do this at your own risk. 
 
@@ -22,7 +22,6 @@ To make this project, you need:
 - An SD card reader module
 - A DAC module
 - A Raspberry Pi Pico board
-- The onboard BOOTSEL button works as a NEXT-button to go to the next audio file in the player.
 
 These components cost less than 10€ in total usually.
 
