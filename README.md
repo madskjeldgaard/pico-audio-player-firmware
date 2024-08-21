@@ -43,7 +43,7 @@ Note, if you are using the same, please make sure the jumpers on the back are so
 | LCK         | GPIO27       |                         |
 | BCK         | GPIO26       |                         |
 | GND         | GND          |                         |
-| VIN         | VBUS (5V)    | could also be 3V3 (OUT) |
+| VIN         | 3V3          |                         |
 
 ### SD Card reader
 
@@ -61,7 +61,7 @@ Please make sure your sd card reader module's power requirements. Some only take
 | MOSI        | GPIO19                                                                          |
 | CS          | GPIO17                                                                          |
 | SCK         | GPIO18                                                                          |
-| VCC         | VBUS/VSYS (unless your SD card module is a 3V one, then connect it to 3V3(OUT)) |
+| VCC         | VBUS (unless your SD card module is a 3V one, then connect it to 3V3(OUT)) |
 
 ### Notes about the SD card
 
